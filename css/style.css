@@ -1,0 +1,63 @@
+.fondo-index header .pre-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  background-color: white;
+  border: solid #cfcfcf 1px;
+  gap: 37%; }
+  .fondo-index header .pre-nav .principio-p {
+    display: flex; }
+    .fondo-index header .pre-nav .principio-p .texto-select {
+      margin-left: 34px;
+      color: #444444;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 3px; }
+    .fondo-index header .pre-nav .principio-p select {
+      height: 22px;
+      border: none;
+      color: red;
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif; }
+    .fondo-index header .pre-nav .principio-p input {
+      border-radius: 10px;
+      width: 108px;
+      height: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 11px;
+      color: #252525;
+      background-color: white;
+      border: solid 1px black;
+      margin-left: 12px; }
+  .fondo-index header .pre-nav .ubi-mano {
+    display: flex;
+    gap: 108px; }
+    .fondo-index header .pre-nav .ubi-mano .ubi {
+      gap: 12px;
+      display: flex; }
+      .fondo-index header .pre-nav .ubi-mano .ubi img {
+        height: 19px; }
+      .fondo-index header .pre-nav .ubi-mano .ubi a {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        margin-top: 1px; }
+    .fondo-index header .pre-nav .ubi-mano .mano {
+      display: flex;
+      gap: 12px; }
+      .fondo-index header .pre-nav .ubi-mano .mano img {
+        height: 16px; }
+      .fondo-index header .pre-nav .ubi-mano .mano a {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        margin-top: 1px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
