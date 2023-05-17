@@ -1,140 +1,159 @@
-.fondo-index header .pre-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 30px;
-  background-color: white;
-  border: solid #cfcfcf 1px;
-  gap: 40%; }
-  .fondo-index header .pre-nav .principio-p {
-    display: flex; }
-    .fondo-index header .pre-nav .principio-p .texto-select {
-      margin-left: 34px;
-      color: #444444;
-      font-size: 12px;
-      font-family: Arial, Helvetica, sans-serif;
-      margin-top: 3px; }
-    .fondo-index header .pre-nav .principio-p form select {
-      height: 22px;
-      border: none;
-      color: red;
-      font-size: 13px;
-      font-family: Arial, Helvetica, sans-serif;
-      outline: none; }
-    .fondo-index header .pre-nav .principio-p form .boton-confirmar-provincia {
-      border-radius: 10px;
-      width: 108px;
-      height: 20px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 11px;
-      color: #252525;
-      background-color: white;
-      border: solid 1px black;
-      margin-left: 12px; }
-    .fondo-index header .pre-nav .principio-p form .boton-confirmar-provincia:hover {
-      background-color: #3f3f3f;
-      color: white; }
-  .fondo-index header .pre-nav .ubi-mano {
+.fondo-index header {
+  background-color: #e4e3e3; }
+  .fondo-index header .pre-nav {
     display: flex;
-    gap: 62px; }
-    .fondo-index header .pre-nav .ubi-mano .ubi {
-      gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    background-color: white;
+    border: solid #cfcfcf 1px;
+    gap: 40%; }
+    .fondo-index header .pre-nav .principio-p {
       display: flex; }
-      .fondo-index header .pre-nav .ubi-mano .ubi img {
-        height: 19px; }
-      .fondo-index header .pre-nav .ubi-mano .ubi a {
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
+      .fondo-index header .pre-nav .principio-p .texto-select {
+        margin-left: 34px;
+        color: #444444;
         font-size: 13px;
-        margin-top: 1px; }
-      .fondo-index header .pre-nav .ubi-mano .ubi a:hover {
-        color: red; }
-    .fondo-index header .pre-nav .ubi-mano .mano {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 6px; }
+      .fondo-index header .pre-nav .principio-p form select {
+        height: 22px;
+        border: none;
+        color: red;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        outline: none; }
+      .fondo-index header .pre-nav .principio-p form .boton-confirmar-provincia {
+        border-radius: 10px;
+        width: 108px;
+        height: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+        color: #252525;
+        background-color: white;
+        border: solid 1px black;
+        margin-left: 12px; }
+      .fondo-index header .pre-nav .principio-p form .boton-confirmar-provincia:hover {
+        background-color: #3f3f3f;
+        color: white; }
+    .fondo-index header .pre-nav .ubi-mano {
       display: flex;
-      gap: 10px; }
-      .fondo-index header .pre-nav .ubi-mano .mano img {
-        height: 16px; }
-      .fondo-index header .pre-nav .ubi-mano .mano a {
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 13px;
-        margin-top: 1px; }
-      .fondo-index header .pre-nav .ubi-mano .mano a:hover {
-        color: red; }
-
-.fondo-index header .nav {
-  background-color: #e4e3e3;
-  height: 62px;
-  display: flex;
-  align-items: center;
-  gap: 7%; }
-  .fondo-index header .nav a .logo-principal {
-    height: 46px;
-    width: 216px;
-    margin-left: 42px; }
-  .fondo-index header .nav form {
-    display: flex; }
-    .fondo-index header .nav form .buscador {
-      height: 40px;
-      width: 420px;
-      border: solid silver 2px;
-      border-radius: 5px;
-      font-size: 15px;
-      padding: 8px;
-      outline: none; }
-    .fondo-index header .nav form .boton-buscar {
-      height: 40px;
-      width: 66px;
+      gap: 62px; }
+      .fondo-index header .pre-nav .ubi-mano .ubi {
+        gap: 10px;
+        display: flex; }
+        .fondo-index header .pre-nav .ubi-mano .ubi img {
+          height: 19px; }
+        .fondo-index header .pre-nav .ubi-mano .ubi a {
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13px;
+          margin-top: 1px; }
+        .fondo-index header .pre-nav .ubi-mano .ubi a:hover {
+          color: red; }
+      .fondo-index header .pre-nav .ubi-mano .mano {
+        display: flex;
+        gap: 10px; }
+        .fondo-index header .pre-nav .ubi-mano .mano img {
+          height: 16px; }
+        .fondo-index header .pre-nav .ubi-mano .mano a {
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13px;
+          margin-top: 1px; }
+        .fondo-index header .pre-nav .ubi-mano .mano a:hover {
+          color: red; }
+  .fondo-index header .nav {
+    background-color: #e4e3e3;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    gap: 7%; }
+    .fondo-index header .nav a .logo-principal {
+      height: 46px;
+      width: 216px;
+      margin-left: 42px; }
+    .fondo-index header .nav form {
+      display: flex; }
+      .fondo-index header .nav form .buscador {
+        height: 40px;
+        width: 420px;
+        border: solid silver 2px;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 8px;
+        outline: none; }
+      .fondo-index header .nav form .boton-buscar {
+        height: 40px;
+        width: 66px;
+        border: none;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        background-color: #36c6ff; }
+      .fondo-index header .nav form .boton-buscar:hover {
+        background-color: #2ba0ce; }
+    .fondo-index header .nav .inicio-de-sesion .inicia-sesion {
+      font-size: 14px;
+      font-family: arial;
+      color: #3d3d3d;
+      margin: 0px; }
+    .fondo-index header .nav .inicio-de-sesion .ing-regis {
+      font-size: 12px;
+      font-family: arial;
+      color: red; }
+    .fondo-index header .nav .inicio-de-sesion .ing-regis:hover {
+      color: black; }
+    .fondo-index header .nav .imgs-b {
+      border-left: solid #b8b8b8 1px; }
+      .fondo-index header .nav .imgs-b .like {
+        border-radius: 8px;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px; }
+      .fondo-index header .nav .imgs-b .carro {
+        border-radius: 8px;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px; }
+  .fondo-index header .botonera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff3d3d;
+    height: 58px; }
+    .fondo-index header .botonera .filtro {
+      height: 58px;
+      width: 240px;
+      font-size: 19px;
       border: none;
-      border-top-right-radius: 18px;
-      border-bottom-right-radius: 18px;
-      background-color: #36c6ff; }
-    .fondo-index header .nav form .boton-buscar:hover {
-      background-color: #2ba0ce; }
-  .fondo-index header .nav .inicio-de-sesion .inicia-sesion {
-    font-size: 14px;
-    font-family: arial;
-    color: #3d3d3d; }
-  .fondo-index header .nav .inicio-de-sesion .ing-regis {
-    font-size: 12px;
-    font-family: arial;
-    color: red; }
-  .fondo-index header .nav .inicio-de-sesion .ing-regis:hover {
-    color: black; }
-  .fondo-index header .nav .imgs-b {
-    border-left: solid #b8b8b8 1px; }
-    .fondo-index header .nav .imgs-b .like {
-      border-radius: 8px;
-      margin-left: 10px;
-      height: 50px;
-      width: 50px; }
-    .fondo-index header .nav .imgs-b .carro {
-      border-radius: 8px;
-      margin-left: 10px;
-      height: 50px;
-      width: 50px; }
+      outline: none;
+      color: #555555;
+      padding-left: 8px; }
+      .fondo-index header .botonera .filtro .filtros {
+        font-size: 16px; }
+    .fondo-index header .botonera a .image-button {
+      border: none;
+      background: none;
+      padding: 0;
+      cursor: pointer;
+      border-right: solid #cfcfcf 1px; }
+  .fondo-index header .credito {
+    width: 100%;
+    border-bottom: solid #e4e3e3 22px; }
 
-.fondo-index header .botonera {
+.fondo-index main .tarjetas {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ff3d3d; }
-  .fondo-index header .botonera .filtro {
-    height: 68px;
-    width: 240px;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    color: #555555;
-    padding-left: 10px; }
-    .fondo-index header .botonera .filtro .filtros {
-      font-size: 16px; }
-  .fondo-index header .botonera a .image-button {
-    border: none;
-    background: none;
-    padding: 0;
-    cursor: pointer;
-    border-right: solid #cfcfcf 1px; }
+  gap: 40px;
+  margin-top: 8px; }
+  .fondo-index main .tarjetas .tarjeta {
+    display: flex;
+    align-items: center; }
+    .fondo-index main .tarjetas .tarjeta a {
+      font-size: 18px;
+      color: #2b2b2b;
+      margin-left: 5px; }
+    .fondo-index main .tarjetas .tarjeta a:hover {
+      color: #000000; }
 
 * {
   padding: 0;

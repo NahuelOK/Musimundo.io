@@ -1,5 +1,6 @@
 .fondo-index{
     header{
+        background-color:rgb(228, 227, 227);
         .pre-nav{
             display: flex;
             flex-direction: row;
@@ -12,10 +13,10 @@
                     display: flex;      
                     .texto-select{
                         margin-left: 34px;
-                        color: rgb(68, 68, 68);
-                        font-size: 12px;
-                        font-family:Arial, Helvetica, sans-serif;
-                        margin-top: 3px;
+                        color: #444444;
+                        font-size: 13px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin-top: 6px;
                     }   
                     form{
                         select{
@@ -122,6 +123,7 @@
                     font-size: 14px;
                     font-family: arial;
                     color: rgb(61, 61, 61);
+                    margin: 0px;
                 }
                 .ing-regis{
                     font-size: 12px;
@@ -153,14 +155,15 @@
             justify-content: space-between;
             align-items: center;
             background-color: #ff3d3d;
+            height: 58px;
             .filtro{
-                height: 68px;
+                height: 58px;
                 width: 240px;
-                font-size: 18px;
+                font-size: 19px;
                 border: none;
                 outline: none;
-                color: rgb(85, 85, 85);
-                padding-left: 10px;
+                color: #555555;
+                padding-left: 8px;
                 .filtros{
                     font-size: 16px;
                 }
@@ -173,6 +176,30 @@
                     cursor: pointer;
                     border-right: solid rgb(207, 207, 207) 1px;
                   }
+            }
+        }
+        .credito{
+            width: 100%;
+            border-bottom: solid rgb(228, 227, 227) 22px;
+        }
+    }
+
+    main{
+        .tarjetas{
+            display: flex;
+            gap: 40px;
+            margin-top: 8px;
+            .tarjeta{
+                display: flex;
+                align-items: center;
+                a{
+                    font-size: 18px;
+                    color: #2b2b2b;
+                    margin-left: 5px;
+                }
+                a:hover{
+                    color: #000000;
+                }
             }
         }
     }
