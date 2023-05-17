@@ -7,7 +7,7 @@
             height: 30px;
             background-color: white;
             border: solid rgb(207, 207, 207) 1px;
-            gap: 37%;
+            gap: 40%;
            .principio-p{
                     display: flex;      
                     .texto-select{
@@ -16,31 +16,38 @@
                         font-size: 12px;
                         font-family:Arial, Helvetica, sans-serif;
                         margin-top: 3px;
-                    }      
-                    select{
+                    }   
+                    form{
+                        select{
                             height: 22px;
                             border: none;
                             color: red;
                             font-size: 13px;
-                               font-family:Arial, Helvetica, sans-serif;
-                    }
-                    input{
-                        border-radius: 10px;
-                        width: 108px;
-                        height: 20px;
-                        font-family: Verdana, Geneva, Tahoma, sans-serif;
-                        font-size: 11px;
-                        color: rgb(37, 37, 37);
-                        background-color: white;
-                        border: solid 1px black;
-                        margin-left: 12px;
-                    }
+                            font-family:Arial, Helvetica, sans-serif;
+                            outline: none;
+                        }
+                        .boton-confirmar-provincia{
+                            border-radius: 10px;
+                            width: 108px;
+                            height: 20px;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-size: 11px;
+                            color: rgb(37, 37, 37);
+                            background-color: white;
+                            border: solid 1px black;
+                            margin-left: 12px;
+                        }
+                        .boton-confirmar-provincia:hover{
+                                 background-color: rgb(63, 63, 63);
+                                color: white;
+                        }
+                    }        
             }
             .ubi-mano{
                     display: flex;
-                    gap: 108px;
+                    gap: 62px;
                     .ubi{
-                        gap: 12px;
+                        gap: 10px;
                         display: flex;
                         img{
                             height: 19px;
@@ -51,10 +58,13 @@
                             font-size: 13px;
                             margin-top: 1px;
                         }
+                        a:hover{
+                            color: red;
+                        }
                     }
                     .mano{
                         display: flex;
-                        gap: 12px;
+                        gap: 10px;
                         img{
                             height: 16px;
                         }
@@ -64,7 +74,105 @@
                             font-size: 13px;
                             margin-top: 1px;
                         }
+                        a:hover{
+                            color: red;
+                        }
                     }
+            }
+        }
+
+        .nav{
+            background-color:rgb(228, 227, 227);
+            height: 62px;
+            display: flex;
+            align-items: center;
+            gap: 7%;
+            a{
+                .logo-principal{
+                    height: 46px;
+                    width: 216px;
+                    margin-left: 42px;
+                }
+            }
+            form{
+                display: flex;
+                .buscador{
+                    height: 40px;
+                    width: 420px;
+                    border: solid rgb(192, 192, 192) 2px;
+                    border-radius: 5px;
+                    font-size: 15px;      
+                    padding: 8px;
+                    outline: none;          
+                }
+                .boton-buscar{
+                    height: 40px;
+                    width: 66px;
+                    border: none;
+                    border-top-right-radius: 18px;
+                    border-bottom-right-radius: 18px;
+                    background-color: #36c6ff;
+                }
+                .boton-buscar:hover{
+                    background-color: #2ba0ce;
+                }
+            }
+            .inicio-de-sesion{
+                .inicia-sesion{
+                    font-size: 14px;
+                    font-family: arial;
+                    color: rgb(61, 61, 61);
+                }
+                .ing-regis{
+                    font-size: 12px;
+                    font-family: arial;
+                    color: red;
+                }
+                .ing-regis:hover{
+                    color: black;
+                }
+            }
+            .imgs-b{
+                border-left: solid rgb(184, 184, 184) 1px;
+                .like{
+                    border-radius: 8px;
+                    margin-left: 10px;
+                    height: 50px;
+                    width: 50px;
+                }
+                .carro{
+                    border-radius: 8px;
+                    margin-left: 10px;
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        }
+        .botonera{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ff3d3d;
+            .filtro{
+                height: 68px;
+                width: 240px;
+                font-size: 18px;
+                border: none;
+                outline: none;
+                color: rgb(85, 85, 85);
+                padding-left: 10px;
+                .filtros{
+                    font-size: 16px;
+                }
+            }
+            a{
+                .image-button {
+                    border: none;
+                    background: none;
+                    padding: 0;
+                    cursor: pointer;
+                    border-right: solid rgb(207, 207, 207) 1px;
+                  }
             }
         }
     }
