@@ -206,23 +206,62 @@
   padding-left: 5%;
   padding-top: 2%;
   padding-bottom: 2%; }
+  .fondo-index footer .imagenes-fot .img-sombra:hover {
+    box-shadow: 6px -6px 10px rgba(0, 0, 0, 0.5); }
 
 .fondo-index footer .suscripcion {
   background-color: #ff3d3d;
   height: 52px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-top: solid #d80d0d 1px; }
   .fondo-index footer .suscripcion h2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
-    margin: 0%; }
+    margin: 0%;
+    width: 694px; }
   .fondo-index footer .suscripcion form {
-    width: 100%;
+    width: 58%;
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 40px; }
+    .fondo-index footer .suscripcion form .email {
+      display: flex;
+      width: 100%; }
+      .fondo-index footer .suscripcion form .email .poner-mail {
+        height: 25px;
+        border: none;
+        background-color: #e4e3e3;
+        color: #414141;
+        box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+        margin-left: 20px; }
+      .fondo-index footer .suscripcion form .email .mandar-mail {
+        height: 25px;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 12px;
+        padding: 5px;
+        color: white;
+        background-color: #585858;
+        font-weight: bold; }
+      .fondo-index footer .suscripcion form .email .mandar-mail:hover {
+        background-color: #36c6ff; }
+  .fondo-index footer .suscripcion .redes {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 16px; }
+    .fondo-index footer .suscripcion .redes .red-social {
+      width: 38px;
+      height: 38px; }
 
 * {
   padding: 0;
